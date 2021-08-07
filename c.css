@@ -23,8 +23,8 @@ main{
   position: relative;
 }
 
-.main-content :last-child{ 
-  margin-right: 0;
+.main-content:last-child { 
+  margin-right: 0px;
 }
 
 .image1 {
@@ -79,4 +79,7 @@ footer{
     margin :20px auto;
   }
 
+  .main-content:last-child {
+    margin: 0 auto;
+  }
 }
